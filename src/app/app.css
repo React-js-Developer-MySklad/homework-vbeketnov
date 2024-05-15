@@ -6,9 +6,9 @@
 
 .page_wrapper {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
     min-height: 1024px;
-    min-width: 350px;
+    /* min-width: 350px; */
     max-width: 1017px;
     margin: auto;
 }
@@ -22,10 +22,6 @@
     align-items: center;
     gap: 10px;
     height: 20px;
-}
-
-main {
-    min-height:100%;
 }
 
 footer {
