@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page_wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 1024px;
+    /* min-width: 350px; */
+    max-width: 1017px;
+    margin: auto;
+}
+
+.nav_wrapper {
+    padding: 12px 0px;
+}
+
+.button_with_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 20px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    margin-top: auto;
+}
